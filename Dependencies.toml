@@ -296,7 +296,7 @@ dependencies = [
 
 [[package]]
 org = "eminenceapps"
-name = "etherium"
+name = "ethereum"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
@@ -304,6 +304,6 @@ dependencies = [
 	{org = "ballerina", name = "test"}
 ]
 modules = [
-	{org = "eminenceapps", packageName = "etherium", moduleName = "etherium"}
+	{org = "eminenceapps", packageName = "ethereum", moduleName = "ethereum"}
 ]
 
