@@ -1,5 +1,4 @@
 import ballerina/http;
-import ballerina/io;
 
 // Function to send a responce with JSON
 public function jsonResponse(http:Caller caller, json payload, int statusCode) returns error? {
